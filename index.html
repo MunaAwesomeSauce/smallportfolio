@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Data Showcase</title>
+</head>
+<body>
+    <header>
+        <h1 data-testid="slackUserName">Muna</h1>
+        <img src="./img/picture.jpg" alt="Your Slack Username" data-testid="slackDisplayImage">
+    </header>
+    <main>
+        <section>
+            <h2>Current Day of the Week</h2>
+            <p data-testid="currentDayofTheWeek" class="data-value">Loading...</p>
+        </section>
+        <section>
+            <h2>Current UTC Time</h2>
+            <p data-testid="currentUTCTime" class="data-value">Loading...</p>
+        </section>
+        <section>
+            <h2 data-testid="myTrack">Track</h2>
+            <p>Frontend</p>
+        </section>
+        <section>
+            <h2>GitHub URL</h2>
+            <a href="https://github.com/MunaAwesomeSauce" data-testid="githubURL" class="github-link">https://github.com/MunaAwesomeSauce</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Developed by Muna</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
